@@ -1,0 +1,4 @@
+useState-
+Think of useState as a way to manage and keep track of information (state) in a component of a website or app. It's like having a piece of paper that you can write on and read from. This piece of paper (state) can store different types of information, like numbers, text, or lists. When something changes, like a user clicking a button or typing in a form, you can use useState to update what's written on that piece of paper. Later, you can read from that paper to show the updated information on your website or app.
+
+For example, you can use useState to keep track of a user's name, and when they type a new name in a text box, you can update what's written on the paper to the new name.
