@@ -2,3 +2,12 @@ useState-
 Think of useState as a way to manage and keep track of information (state) in a component of a website or app. It's like having a piece of paper that you can write on and read from. This piece of paper (state) can store different types of information, like numbers, text, or lists. When something changes, like a user clicking a button or typing in a form, you can use useState to update what's written on that piece of paper. Later, you can read from that paper to show the updated information on your website or app.
 
 For example, you can use useState to keep track of a user's name, and when they type a new name in a text box, you can update what's written on the paper to the new name.
+
+useRef-
+ useRef is like a special tool in the world of web development, especially in the context of React, a popular JavaScript library for building user interfaces.
+
+Imagine you have a piece of paper, and you want to remember something important, like a number. You could write it down on the paper, and whenever you need to use that number, you look at the paper to find it. In the world of web development, components (parts of a web page) need to remember things too, like a value, a reference to an HTML element, or some other data.
+
+useRef is like a magical sticky note that you can attach to a component. You can write down something on this sticky note (like a piece of data or a reference to an HTML element), and it will remember it no matter how many times the component re-renders (updates itself). This is super useful because in many cases, when a component re-renders, it forgets what it knew before. But with useRef, that important information sticks around, just like your sticky note.
+
+So, in simple terms, useRef is a way for a component to remember important stuff that doesn't get wiped away when the component updates itself. It's a handy tool for managing data and interacting with the web page's elements.
