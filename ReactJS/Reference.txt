@@ -11,3 +11,10 @@ Imagine you have a piece of paper, and you want to remember something important,
 useRef is like a magical sticky note that you can attach to a component. You can write down something on this sticky note (like a piece of data or a reference to an HTML element), and it will remember it no matter how many times the component re-renders (updates itself). This is super useful because in many cases, when a component re-renders, it forgets what it knew before. But with useRef, that important information sticks around, just like your sticky note.
 
 So, in simple terms, useRef is a way for a component to remember important stuff that doesn't get wiped away when the component updates itself. It's a handy tool for managing data and interacting with the web page's elements.
+
+useEffect-
+ useEffect is a concept in React, a popular JavaScript library for building web applications. In simple terms, think of it as a way to tell your app to do something after it has shown something on the screen or when something in your app changes.
+
+Imagine you're building a to-do list app, and you want to save the to-do items to a server when the user adds or deletes something. You can use useEffect to say, "Hey, after the user adds or deletes a to-do item, please send this data to the server." It's like setting up a rule that says, "Whenever something changes, do this."
+
+So, in a nutshell, useEffect is a tool in React that helps you manage when and what your app does in response to changes or when it's first shown on the screen.
