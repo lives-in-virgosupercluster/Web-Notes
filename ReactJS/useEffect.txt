@@ -1,0 +1,18 @@
+The useEffect hook in React is called in two main scenarios:
+
+Mounting Phase:
+
+When the component is initially rendered (mounted) in the DOM.
+The useEffect callback provided is executed after the initial render.
+Update Phase:
+
+Whenever there are updates to the component, such as changes in state or props.
+The useEffect callback is also executed after every render caused by a state or props change.
+The useEffect hook can be used for various side effects in a React component, such as data fetching, subscriptions, manual DOM manipulations, or cleanup operations. The effect is specified as a function that will run after the render is committed to the screen.
+
+To control when the useEffect should run, you can provide a second argument, which is an array of dependencies. The effect will only run if any of the dependencies have changed since the last render. If the dependencies array is empty, the effect runs only once after the initial render.
+useEffect(() => {
+  // Effect code here
+  console.log('Effect ran!');
+}, [dependency1, dependency2]);
+In this example, the effect will run initially and whenever dependency1 or dependency2 changes. If the dependencies array is omitted (useEffect(() => {...})), the effect runs after every render. If the dependencies array is empty (useEffect(() => {...}, [])), the effect runs only once after the initial render.
