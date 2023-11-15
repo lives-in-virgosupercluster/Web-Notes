@@ -1,0 +1,4 @@
+Used useRef to create a rolling text in React
+what was the use of useRef?
+-we needed to store the reference id provided by setInterval as incase of a re-render the component loses information contained by the variables
+-if we use useState instead of useRef to store the state then for using the variable we would have to re-render the component each times

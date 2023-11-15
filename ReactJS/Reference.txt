@@ -20,7 +20,7 @@ Imagine you're building a to-do list app, and you want to save the to-do items t
 So, in a nutshell, useEffect is a tool in React that helps you manage when and what your app does in response to changes or when it's first shown on the screen.
 
 React Redux-
-  Certainly! Imagine you're building a big city, and you have lots of buildings (components) that need to communicate and share information. React is like the construction crew, and Redux is like the city's central message board.
+   Imagine you're building a big city, and you have lots of buildings (components) that need to communicate and share information. React is like the construction crew, and Redux is like the city's central message board.
 
 1. **React**: Each building (component) is responsible for its own tasks and has its own blueprint (state). When something happens in one building, like a change in the state (e.g., a new sign on a shop), React makes sure that the people inside that building know about it. But React isn't very good at letting other buildings know what's happening.
 
