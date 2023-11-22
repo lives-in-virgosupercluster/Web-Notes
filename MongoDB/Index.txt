@@ -1,0 +1,6 @@
+In MongoDB, indexing is the process of optimizing the database for faster query performance by creating indexes on specific fields within a collection. Indexes are data structures that store a small portion of the collection’s data in an easy-to-traverse form.
+
+When you create an index on a field, MongoDB creates an index key for that field, allowing queries to efficiently search and retrieve documents based on the indexed field's value. This can significantly speed up query execution, especially for large collections, as MongoDB can use the index to locate the required documents more quickly.
+
+
+Indexes in MongoDB are implemented using B-tree data structures. When you create an index on a field or multiple fields within a collection, MongoDB builds a B-tree index for that field or combination of fields.
