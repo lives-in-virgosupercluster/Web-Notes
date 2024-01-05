@@ -13,3 +13,48 @@ Default Parameters: Setting default values for function parameters.
 Rest and Spread Operators: ... syntax for handling variable numbers of arguments.
 Promises: Built-in support for handling asynchronous operations more easily.
 Modules: A standardized way to organize and reuse JavaScript code.
+
+Arrow functions-
+need-
+concise way to use functions
+the binding of this keyword as it adopts local ref not the global ref
+
+difference between let and const
+both are block-focused
+both let is mutable while const is not
+
+var: Variables declared with var have function-level scope. This means they are visible throughout the function in which they are declared, even if they are declared within a block (like if, for, or while). If declared outside any function, they become global variables.
+
+let: Variables declared with let have block-level scope. They are only accessible within the block in which they are defined (block-scoped). This ensures that variables declared with let are not visible outside of their block.
+
+Variable Hoisting:
+
+var: Variables declared with var are hoisted to the top of their scope. This means that while the declaration is moved to the top during compilation, the assignment of the value remains where it is. This might lead to unexpected behavior, like accessing the variable before it's declared resulting in undefined.
+
+let: Variables declared with let are also hoisted to the top of their scope but are not initialized until the actual declaration statement is evaluated in the code. Therefore, using a let variable before its declaration results in a ReferenceError.
+
+var: Allows re-declaration of the same variable within the same scope, which can potentially lead to bugs.
+
+let: Does not allow re-declaration of the same variable within the same scope. Attempting to redeclare a variable with let in the same scope will result in a SyntaxError.
+
+Destructuring-
+
+Destructuring in JavaScript is a powerful feature introduced in ES6 that allows you to extract values from arrays, objects, and nested structures into distinct variables. It provides a concise and flexible way to unpack values from data structures into individual variables, making code cleaner and more readable.
+
+Array Spreading:
+The spread operator (...) allows an array to be expanded into individual elements. It's used for:
+
+Copying Arrays:
+
+
+const arr = [1, 2, 3];
+const newArr = [...arr]; // Creates a copy of 'arr
+
+Spread Operator (...): Used for expanding elements (arrays, objects) into individual elements (arrays) or properties (objects).
+
+Rest Parameter (...): Used in function parameters to collect multiple arguments into a single array, enabling functions to accept varying numbers of arguments.
+
+Template literals allow embedding expressions or variables directly within the string using ${} syntax. This is known as string interpolation.
+
+const name = 'Alice';
+const greeting = `Hello, ${name}!`;
