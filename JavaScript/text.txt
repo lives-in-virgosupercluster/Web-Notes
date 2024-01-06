@@ -23,6 +23,8 @@ difference between let and const
 both are block-focused
 both let is mutable while const is not
 
+difference between var and let-
+
 var: Variables declared with var have function-level scope. This means they are visible throughout the function in which they are declared, even if they are declared within a block (like if, for, or while). If declared outside any function, they become global variables.
 
 let: Variables declared with let have block-level scope. They are only accessible within the block in which they are defined (block-scoped). This ensures that variables declared with let are not visible outside of their block.
